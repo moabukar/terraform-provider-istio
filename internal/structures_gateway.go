@@ -1,4 +1,4 @@
-package istio
+package internal
 
 import (
 	v1alpha3spec "istio.io/api/networking/v1alpha3"
