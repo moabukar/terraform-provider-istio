@@ -1,5 +1,5 @@
 provider istio {
-  config_path = "/Users/mohamed/.kube/config"
+  config_path = "/Users/mohameda/.kube/config"
 }
 
 resource "istio_virtual_service" "test"{
