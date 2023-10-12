@@ -4,7 +4,9 @@ go 1.19
 
 require (
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2
-	github.com/ronak-agarwal/terraform-provider-istio v0.0.0-20200930153343-d3379f282cbf
+	istio.io/client-go v0.0.0-20200626204548-8f69a2d0fe26
+	k8s.io/apimachinery v0.18.5
+	k8s.io/client-go v0.18.5
 )
 
 require (
@@ -89,11 +91,8 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	istio.io/api v0.0.0-20200626203124-c07d1d63dab7 // indirect
-	istio.io/client-go v0.0.0-20200626204548-8f69a2d0fe26 // indirect
 	istio.io/gogo-genproto v0.0.0-20190930162913-45029607206a // indirect
 	k8s.io/api v0.18.5 // indirect
-	k8s.io/apimachinery v0.18.5 // indirect
-	k8s.io/client-go v0.18.5 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19 // indirect
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.0 // indirect
