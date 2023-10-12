@@ -22,7 +22,7 @@ func resourceSidecar() *schema.Resource {
 		Delete: resourceSidecarDelete,
 
 		Schema: map[string]*schema.Schema{
-			"metadata": namespacedMetadataSchema("sidecar"),
+			"§": namespacedMetadataSchema("sidecar"),
 			"spec": {
 				Type:        schema.TypeList,
 				Description: "Spec defines the specification of the sidecar",
