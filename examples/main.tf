@@ -1,3 +1,13 @@
+terraform {
+  required_providers {
+    istio = {
+      source = "registry.terraform.io/moabukar/istio"
+    }
+  }
+}
+
+# provider "istio" {}
+
 provider istio {
   config_path = "/Users/mohameda/.kube/config"
 }

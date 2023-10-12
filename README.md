@@ -57,12 +57,16 @@ To do this, populate a Terraform CLI configuration file (`~/.terraformrc` for al
 
 ```hcl
 provider_installation {
+
   dev_overrides {
-    "terraform.io/istio" = "/Users/mohameda/terraform-provider-istio/bin/darwin-amd64"
+      "registry.terraform.io/moabukar/istio" = "<PATH>"
   }
 
-  # Install all other providers directly from their origin provider
-  # registries as normal. If you omit this, no other providers will be available.
+  # For all other providers, install them directly from their origin provider
+  # registries as normal. If you omit this, Terraform will _only_ use
+  # the dev_overrides block, and so no other providers will be available.
+
   direct {}
 }
 ```
+
